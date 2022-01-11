@@ -1,0 +1,275 @@
+﻿<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    html, body, h1, h2, h3, h4 {
+        font-family: "Lato", sans-serif
+    }
+    .mySlides {
+        display: none
+    }
+    .w3-tag, .fa {
+        cursor: pointer
+    }
+    .w3-tag {
+        height: 15px;
+        width: 15px;
+        padding: 0;
+        margin-top: 6px
+    }
+</style>
+
+<body>
+    <!-- Content -->
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+        <div style=" text-align:center;">
+            <h1><b>Boikarabelo's Tattoo's</b></h1>
+        </div>
+
+        <!-- Slideshow -->
+        <div class="w3-container">
+            <div class="w3-display-container mySlides">
+                <img src="~/Images/01_thetattooist.__large_preview.png" style="width:100%; height:500px" />
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="~/Images/custom-tattoo-design_steps.png" style="width:100%; height:500px" />
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="~/Images/tattoo.jpg" style="width:100%; height:500px" />
+            </div>
+            <!-- Slideshow next/previous buttons -->
+            <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+                <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+                <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+                <div class="w3-center">
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="w3-row-padding" id="about">
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">About Me</span>
+            </div>
+
+            <div class="w3-col 10 m6 w3-grey w3-container w3-padding-16">
+                <h3>Who I am:</h3>
+                <p>
+                    Hi my name is Boikarabelo.<br>
+                    I am 20 years old and am currently <br>
+                    a second year game development <br>
+                    student who also has a love of tattooing.<br>
+                
+                </p>
+            </div>
+
+            <div class="w3-col 10 m6 w3-dark-grey w3-container w3-padding-16">
+                <h3>What my Goal is:</h3>
+                <p>
+                    My goal is to one day design my own games,<br>
+                    whislt balancing my tattooing career in my spare time <br>
+                    My tattoos all have a part of my soul and I <br>
+                    try to keep the prices reasonable.<br>
+                </p>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="w3-row-padding" id="Portfolio">
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">My Portfolio</span>
+            </div>
+
+            <div class="w3-col 10 m6 w3-light-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/2e9daf3af676e37afb19825b033fef10.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+            <div class="w3-col 10 m6 w3-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/Crennelated-3D-tattoo.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+            <div class="w3-col 10 m6 w3-dark-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/images.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+            <div class="w3-col 10 m6 w3-light-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/original_CROP_Amsterdam_NewAmsterdam3_Artist_Kelsey-van-Leeuwen_New_Amsterdam-Tattoo-Studio_03.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+            <div class="w3-col 10 m6 w3-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/tattoo.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+            <div class="w3-col 10 m6 w3-dark-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/UV-Tattoos-1024x465.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+            <div class="w3-col 9 m6 w3-light-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/tattoos.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+            <div class="w3-col 9 m6 w3-grey w3-container w3-padding-32">
+                <p>
+                    <img src="~/Images/japanese-tattoos-featured.png" style="height:300px; width:525px" />
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Grid -->
+        <div class="w3-row-padding" id="Location">
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Where I am</span>
+            </div>
+
+            <div style="text-align: center; background-color: darkgrey; width: 99%; padding: 25px;">
+                <p style="text-align:center"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.927014377764!2d27.938712315573202!3d-26.101301066137914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957545d8ece4c9%3A0x2a0fb08731fcf45f!2sCyberSkin%20Tattoo&#39;s%20%26%20Piercings!5e0!3m2!1sen!2sza!4v1624125281082!5m2!1sen!2sza" width="98%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </p>
+            </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="w3-row-padding" id="plans">
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Price Plans</span>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Package 3</li>
+                    <li class="w3-padding-16"><b>3x: </b> 4cm by 4cm</li>
+                    <li class="w3-padding-16"><b>2x: </b> 5cm by 5cm</li>
+                    <li class="w3-padding-16"><b>1x: </b> 6cm by 6cm</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">R300</h2>
+                        <p>For one option</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Package 2</li>
+                    <li class="w3-padding-16"><b>1x: </b> Forarme</li>
+                    <li class="w3-padding-16"><b>1x: </b> Shoulder</li>
+                    <li class="w3-padding-16"><b>1x: </b> Back of the neck</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">R550</h2>
+                        <p>For one option</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Package 3</li>
+                    <li class="w3-padding-16"><b>1x: </b> Full Back</li>
+                    <li class="w3-padding-16"><b>1x: </b> Full Sleeve</li>
+                    <li class="w3-padding-16"><b>1x: </b> Upper Thight</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">R1000</h2>
+                        <p>For one option</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="w3-center w3-padding-64" id="contact">
+            <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Me</span>
+        </div>
+
+        <div style="background-color: darkgrey; width: 99%; padding: 25px;">
+            <div class="row">
+                <div class="col-md-6" style=" padding-top: 5%">
+                    <p style="text-align: center">
+                        <img src="~/Images/dream-catcher-tattoos-for-women.jpg" style="height: 500px; width: 450px; 100% 100%; border: 5px solid #000000"/>
+                        <br>
+                    </p>
+                </div>
+
+
+                <div class="col-md-6" style=" padding-top: 5%">
+                    <div class="row">
+                        <div class="column">
+                            
+                                <h2>Send me a Message</h2>
+                                <br>
+                                
+                                    <label for="fname">First Name: </label><br>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width:100%">
+                                    <br><br>
+                               
+                                    <label for="lname">Last Name: </label><br>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="width:100%">
+                                    <br><br>
+
+                                    <label for="Price">Price Package: </label><br>
+                                    <select id="Price" name="Price"  style="width:100%">
+                                        <option value="Price">Package 1</option>
+                                        <option value="Price">Package 2</option>
+                                        <option value="Price">Package 3</option>
+                                    </select>
+                                    <br><br>
+
+                                <button type="submit" style="width:52%; background-color: black; color:white" >Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+
+    <script>
+        // Slideshow
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demodots");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
+
+</body>
